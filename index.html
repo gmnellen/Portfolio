@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="description" content="Gwen Nellen's Portfolio">
+    <meta name="keywords" content="Computer Science, Web Concepts">
+    <meta name="author" content="Gwen Nellen">
+
+    <title>Gwen Nellen</title>
+    <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+     <script src="js/menu.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/easySlider1.7.js"></script>
+   <!--slider-->
+    <script>
+        $(document).ready(function () {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                numberic: true
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/logo2.png" alt="logo" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav id="menu-wrap">
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Computer Science</a></li>
+            <li>
+                <a href="">Web Development</a>
+                <ul>
+                    <li><a href="husky.html">Siberian Huskies</a></li>
+                    <li><a href="shopping_site.html">Shopping</a></li>
+                </ul>
+            </li>
+
+
+            <li>
+                <a href='#'>Miscellaneous</a>
+                <ul>
+                    <li><a href="GerryClutterbuck.html">GerryClutterbuck</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div id="slider_container">
+            <div id="slider">
+                <ul>
+                    <li>
+                        <div class="slide_wrap">
+                            <div class="slide_content">
+                                <h1>Programming Languages</h1>
+                                <p>
+                                    The term programming language usually refers to high-level languages, such as
+                                    BASIC, C, C++, COBOL, FORTRAN, Ada, and Pascal. Each language has a unique set of
+                                    keywords (words that it understands) and a special syntax for organizing program instructions.
+                                </p>
+
+                            </div>
+                            <div class="portfolio_image"></div><img src="images/prog_lang.png" alt="portfolio image" />
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li>
+                        <div class="slide_wrap">
+                            <div class="slide_content">
+                                <h1>Assembly Language</h1>
+                                <p>
+                                    An assembly language (or assembler language) is a low-level programming language
+                                    for a computer, or other programmable device, in which there is a very strong
+                                    (generally one-to-one) correspondence between the language and the architecture's
+                                    machine code instructions.
+                                </p>
+                            </div>
+                            <div class="portfolio_image"></div><img src="images/assembly.png" alt="portfolio image" />
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li>
+                        <div class="slide_wrap">
+                            <div class="slide_content">
+                                <h1>Web Design Services</h1>
+                                <p>
+                                    Gerry Clutterbuck has been designing professional websites for over a decade.
+                                    Learn more about how he can help your business find the online presence it deserves.
+                                </p>
+                             </div>
+                            <div class="portfolio_image"></div><img src="images/c.png" alt="portfolio image" />
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li>
+                        <div class="slide_wrap">
+                            <div class="slide_content">
+                                <h1>Web Design Services</h1>
+                                <p>
+                                    Gerry Clutterbuck has been designing professional websites for over a decade.
+                                    Learn more about how he can help your business find the online presence it deserves.
+                                </p>
+                                <a href="">Click Here to Learn More</a>
+                            </div>
+                            <div class="portfolio_image"></div><img src="images/portfolio.jpg" alt="portfolio image" />
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
